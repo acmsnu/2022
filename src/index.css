@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply h-full w-full p-3
+  bg-gradient-to-b from-purple-600 to-purple-700;
+}
+
+main {
+  @apply w-full h-full p-6 md:p-12 bg-white rounded-lg;
+}
+
+.content {
+  @apply mt-1 md:mt-12 max-w-3xl mx-auto;
+}
+
+.intro {
+  @apply text-4xl md:text-6xl font-black;
+}
