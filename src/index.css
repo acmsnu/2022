@@ -4,11 +4,11 @@
 
 body {
   @apply h-full w-full p-3
-  bg-gradient-to-b from-purple-600 to-purple-700;
+  bg-gradient-to-b from-blue-500 to-blue-600;
 }
 
 main {
-  @apply w-full h-full p-6 md:p-12 bg-white rounded-lg;
+  @apply w-full h-full p-6 md:p-12 bg-gray-900 text-gray-50 rounded-lg;
 }
 
 .content {
@@ -16,5 +16,5 @@ main {
 }
 
 .intro {
-  @apply text-4xl md:text-6xl font-black;
+  @apply text-4xl mt-8 md:mt-16 md:text-6xl font-black;
 }

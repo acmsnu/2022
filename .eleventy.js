@@ -1,6 +1,8 @@
 const markdownIt = require("markdown-it");
 
 module.exports = (config) => {
+  config.addPassthroughCopy("src/static");
+
   const md = new markdownIt({
     html: true,
   });
