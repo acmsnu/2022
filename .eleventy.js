@@ -17,7 +17,8 @@ module.exports = (config) => {
 
         return {
           name: loaded.name || "",
-          line: loaded.line || "",
+          line: loaded.about || "",
+          github: loaded.github || "",
         };
       })
     );

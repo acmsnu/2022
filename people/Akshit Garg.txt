@@ -1,2 +1,3 @@
 name: Akshit Garg
-line: Something
+github: gargakshit
+about: Just another earthling who loves retro machines, fractals and cats.

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply h-full w-full p-3
+  @apply h-full w-full p-3 min-h-screen
   bg-gradient-to-b from-blue-500 to-blue-600;
 }
 
@@ -17,4 +17,8 @@ main {
 
 .intro {
   @apply text-4xl mt-8 md:mt-16 md:text-6xl font-black;
+}
+
+.name {
+  @apply flex gap-2 items-center group-hover:underline;
 }

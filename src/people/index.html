@@ -12,9 +12,11 @@
       <div class="content">
         {% include "partials/nav.html" %}
         <h1 class="intro mb-4">People<span class="text-blue-500">.</span></h1>
-        {% for person in collections.people %} {% include
-        "partials/person.html", name: person.name, line: person.line %} {%
-        endfor %}
+        <div class="flex flex-col gap-8 mt-12">
+          {% for person in collections.people %} {% include
+          "partials/person.html", name: person.name, line: person.line, github:
+          person.github %} {% endfor %}
+        </div>
       </div>
     </main>
   </body>

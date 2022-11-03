@@ -1183,20 +1183,16 @@ video {
   margin-top: 2rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
+.mt-12 {
+  margin-top: 3rem;
 }
 
 .mt-1 {
   margin-top: 0.25rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
 }
 
 .flex {
@@ -1211,6 +1207,10 @@ video {
   max-width: none;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .items-center {
   align-items: center;
 }
@@ -1221,16 +1221,6 @@ video {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 .text-xl {
@@ -1259,6 +1249,7 @@ video {
 
 body {
   height: 100%;
+  min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
   --tw-gradient-from: #3b82f6;
@@ -1311,7 +1302,19 @@ main {
     font-size: 3.75rem;
     line-height: 1;
   }
+}
 
+.name {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.group:hover .name {
+  text-decoration-line: underline;
+}
+
+@media (min-width: 768px) {
   .md\:mt-16 {
     margin-top: 4rem;
   }
