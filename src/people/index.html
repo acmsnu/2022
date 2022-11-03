@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>People | ACM</title>
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body class="w-full">
+    <main>
+      <div class="content">
+        {% include "partials/nav.html" %}
+        <h1 class="intro mb-4">People<span class="text-blue-500">.</span></h1>
+        {% for person in collections.people %} {% include
+        "partials/person.html", name: person.name, line: person.line %} {%
+        endfor %}
+      </div>
+    </main>
+  </body>
+</html>
