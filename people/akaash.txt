@@ -1,3 +1,4 @@
 name : Akaash Emmanuel  
 github : highupinthesky
-about : a comp sci student
+about : an idiot
+
