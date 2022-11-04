@@ -14,6 +14,7 @@
 ![Forking a repository](./images/1.jpg)
 
 - If you want you can change the name of the fork and then click "Create Fork".
+> This will create a fork of the repository in your account. Fork is a copy of a repository. It allows you to freely experiment with changes without affecting the original project. You can read more about it [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
 
 ![Changing the name of the fork](./images/2.jpg)
 
@@ -24,7 +25,9 @@
 ![Navigating to the people folder](./images/3.jpg)
 ![Clicking on the Add File button](./images/4.jpg)
 
-## Step 3: Adding content to the new file
+## Step 3: Adding content to the new 
+
+> Content can be added in two ways. You can either use the editor or upload a file. We'll be using the editor for this excercise. We can even you our local machine to clone 
 
 - Create a file with the name `<your-name>.txt` and add the following content to it.
 
@@ -40,7 +43,7 @@ about: <your-fun-catch-phrase>
 
 - Once you're done, click on the "Commit new file" button. 
 
-> You may add a commit message if you want. Learn more about conventional commits [here](https://www.conventionalcommits.org/en/v1.0.0/).
+> You may add a commit message if you want. Learn more about conventional commit messages [here](https://www.conventionalcommits.org/en/v1.0.0/).
 
 ![Committing the new file](./images/6.jpg)
 
