@@ -68,4 +68,4 @@ Step 4: Creating a pull request
 
 - You're done! You've successfully created a pull request. You can now wait for your pull request to be reviewed and merged by one of ACM's team members.
 
-## Congratulations! You have successfully created your first pull request!
+## Congratulations! You have successfully created your first open source contribution! 🥳
