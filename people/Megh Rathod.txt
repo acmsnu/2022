@@ -1,3 +1,0 @@
-name: Megh Rathod
-github: meghrathod
-about: To the moon!
