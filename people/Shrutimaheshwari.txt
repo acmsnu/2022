@@ -1,0 +1,3 @@
+name : Shruti Maheshwari
+github : shrutii-09
+about : I am an ECE student trying to do coding.
