@@ -27,7 +27,7 @@
 
 ## Step 3: Adding content to the new 
 
-> Content can be added in two ways. You can either use the editor or upload a file. We'll be using the editor for this excercise. We can even you our local machine to clone 
+> Content can be added in two ways. You can either use the editor or upload a file. We'll be using the editor for this excercise. We can even use our own PC to clone the repository and edit the files locally. You can read more about it [here](https://docs.github.com/en/get-started/quickstart/contributing-to-projects).
 
 - Create a file with the name `<your-name>.txt` and add the following content to it.
 
@@ -36,6 +36,9 @@ name: <your-name>
 github: <your-github-username>
 about: <your-fun-catch-phrase>
 ```
+
+> Find your GitHub username at the top-left corner of the add file page. Please type it verbatim.
+![Finding your GitHub username](./images/10.jpg)
 
 - It should look something like this.
 
