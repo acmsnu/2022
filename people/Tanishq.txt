@@ -1,0 +1,3 @@
+name: Tanishq Nehra
+girhub: Tanishq Nehra
+about: I am a Computer Science Student
