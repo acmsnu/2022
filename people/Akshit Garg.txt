@@ -1,3 +1,0 @@
-name: Akshit Garg
-github: gargakshit
-about: Just another earthling who loves retro machines, fractals and cats.
