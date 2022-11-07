@@ -1,3 +1,0 @@
-name: Siddhi Jalan
-github: sj302003
-about: I am an explorer
