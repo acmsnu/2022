@@ -1,3 +1,0 @@
-name: Rachit Anand
-github: rachitanand04
-about: I like astronomy
